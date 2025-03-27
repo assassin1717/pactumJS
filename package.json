@@ -1,0 +1,20 @@
+{
+  "name": "pactumjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:single": "npx jest tests/users/put-user.contract.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "pactum": "^3.7.6"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0"
+  }
+}
